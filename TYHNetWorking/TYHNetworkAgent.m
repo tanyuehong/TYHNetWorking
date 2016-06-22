@@ -132,7 +132,7 @@
     TYHRequestMethod method = [request requestMethod];
     NSString *url = [self buildRequestUrl:request];
     id param = request.requestArgument;
-    AFConstructingBlock constructingBlock = [request constructingBodyBlock];
+//    AFConstructingBlock constructingBlock = [request constructingBodyBlock];
     
     AFHTTPRequestSerializer *requestSerializer = nil;
     if (request.requestSerializerType == TYHRequestSerializerTypeHTTP) {

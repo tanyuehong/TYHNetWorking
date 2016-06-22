@@ -7,6 +7,7 @@
 //
 
 #import "TYHNetworkPrivate.h"
+#import <CommonCrypto/CommonDigest.h>
 
 @implementation TYHNetworkPrivate
 

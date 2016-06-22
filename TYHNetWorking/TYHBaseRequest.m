@@ -27,6 +27,10 @@
 - (NSDictionary *)requestHeaderFieldValueDictionary {
     return nil;
 }
+- (BOOL)statusCodeValidator
+{
+    return YES;
+}
 - (NSURLRequest *)buildCustomUrlRequest {
     return nil;
 }
@@ -61,13 +65,12 @@
 }
 
 - (BOOL)isCancelled {
-#warning   这里 暂时没有找到替代方法
+
 //    return self.requestOperation.is;
     return  NO;
 }
 
 - (BOOL)isExecuting {
-#warning   这里 暂时没有找到替代方法
 //    return self.requestOperation.isExecuting;
     return YES;
 }
