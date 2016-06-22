@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <AFNetworking.h>
+#import "AFNetworking.h"
 #import "TYHBaseRequest.h"
 
 typedef NS_ENUM(NSUInteger, TYHNetQuessType)

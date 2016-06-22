@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <Foundation/Foundation.h>
-#import <AFNetworking.h>
+#import "AFNetworking.h"
 
 
 //请求方式定义
